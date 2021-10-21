@@ -10,9 +10,11 @@ We are testing two types of files:
 
 
 
-### If `pip freeze` doesn't work
+### To generate `environment.yml` for dependencies
 
-`pip freeze` can lead to [direct references](https://stackoverflow.com/questions/62885911/pip-freeze-creates-some-weird-path-instead-of-the-package-version), use the following to create `requirements.txt` instead:
+Run code according to the `Readme.md` [here](https://github.com/binder-examples/conda). That is, to get the dependencies, run
 
-`pip list --format=freeze > requirements.txt`
+`conda env export --from-history -f environment.yml` from the current conda env. 
+
+
 
