@@ -1,0 +1,9 @@
+name: binder-test
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - ipykernel
+  - pandas
+  - scikit-learn
+prefix: C:\Users\Brian\anaconda3\envs\binder-test
